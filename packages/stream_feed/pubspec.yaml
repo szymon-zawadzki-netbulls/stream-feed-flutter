@@ -10,7 +10,7 @@ environment:
 
 dependencies:
   collection: ^1.15.0
-  dio: ^5.2.0
+  dio: ^5.2.1+1
   equatable: ^2.0.5
   faye_dart: ^0.1.1+2
   http_parser: ^4.0.0

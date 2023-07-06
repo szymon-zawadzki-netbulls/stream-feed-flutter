@@ -24,10 +24,8 @@ class StreamHttpClient {
   })  : options = options ?? const StreamHttpClientOptions(),
         httpClient = dio ?? Dio() {
     httpClient
-      ..options.receiveTimeout =
-          this.options.receiveTimeout.inMilliseconds as Duration?
-      ..options.connectTimeout =
-          this.options.connectTimeout.inMilliseconds as Duration?
+      ..options.receiveTimeout = this.options.receiveTimeout
+      ..options.connectTimeout = this.options.connectTimeout
       ..options.queryParameters = {
         'api_key': apiKey,
         'location': this.options.group,
