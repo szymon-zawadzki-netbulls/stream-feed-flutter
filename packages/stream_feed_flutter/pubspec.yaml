@@ -5,7 +5,7 @@ homepage: https://getstream.io/
 publish_to: none
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   animations: ^2.0.2
@@ -16,7 +16,7 @@ dependencies:
   flutter_svg: ^2.0.7
   image_picker: ^1.0.1
   path_provider: ^2.0.5
-  photo_view: ^0.13.0
+  photo_view: ^0.14.0
   rxdart: ^0.27.1
   stream_feed_flutter_core:
     git:
@@ -25,12 +25,6 @@ dependencies:
   timeago: ^3.0.2
   url_launcher: ^6.0.6
   video_thumbnail: ^0.4.3
-
-dependency_overrides:
-  photo_view:
-    git:
-      url: https://github.com/bluefireteam/photo_view
-      ref: 8156907eecfa812b181a5a729d790f6d399f311b
 
 dev_dependencies:
   golden_toolkit: ^0.13.0
